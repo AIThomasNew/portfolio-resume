@@ -3,15 +3,16 @@
 
 /* ------- Variables ------- */
 :root {
-    --main-color: #25a47d;
+    --main-color: #00a3e6;
     /* #00a3e6 */
+    /* #25a47d */
 
     --blue: #00a3e6;
-    --blue-dark: #18293c;
-    --orange: #ffa500;
-    --green-yellow: #cddc39;
-    --pink-light: #efa2b4;
-    --cyan-light: #aef1ee;
+    --blue-dark: #fff;
+    --orange: #008cff;
+    --green-yellow: #87befd;
+    --pink-light: #e1eef3;
+    --cyan-light: #3290b8;
 
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.4);
@@ -52,7 +53,7 @@ body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: var(--blue-dark);
+    color: #fff;
     line-height: 1.5;
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
@@ -274,7 +275,7 @@ button {
     height: 80px;
     width: 80px;
     background-color: var(--main-color);
-    left: 30%;
+    left: 35%;
     top: 40%;
     opacity: 0.4;
     animation: bounceTop 5s ease-in-out infinite;
@@ -467,7 +468,7 @@ button {
 .header .nav-inner ul li a {
     font-size: 40px;
     text-transform: capitalize;
-    color: var(--blue-dark);
+    color: var(--white);
     display: block;
     font-weight: 500;
     padding: 8px 15px;
